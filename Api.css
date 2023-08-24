@@ -1,0 +1,45 @@
+.flex-container {
+    display: flex;
+    justify-content:space-between;
+    background-color: #f1f1f1;
+    flex-wrap: wrap;
+    padding: 100px;
+    
+    
+  }
+  
+  .flex-container > p {
+    background-color:rgb(35, 238, 238);
+    margin: 10px;
+    padding: 10px;
+    width: 270px;
+    height: 120px;
+    border-radius: 1lvh;
+    box-shadow: 1px 5px lightblue;
+   
+    }
+    
+    
+
+    .container{
+
+        border: 6px solid black;
+        
+        
+        
+    }
+
+    .navbar
+    {
+        
+        top: 70px;
+        height: 90px;
+        color: #f1f1f1;
+        padding: 30px;
+        border-bottom: 5px solid #4094e9;
+         
+              
+
+    }
+
+  
