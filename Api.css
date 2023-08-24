@@ -23,8 +23,7 @@
 
     .container{
 
-        border: 6px solid black;
-        
+        border: 6px solid black;       
         
         
     }
@@ -42,4 +41,19 @@
 
     }
 
-  
+    @media (max-width: 400px) {
+        .flex-container > p {
+          width: 100%; 
+          height: 100%;/* Allow the box to take up the full width */
+        }
+    
+        
+    }
+
+    @media (max-width: 400px) {
+        .flex-container{
+          padding: 60px
+        }
+    
+        
+    }
